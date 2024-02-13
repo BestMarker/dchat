@@ -1,0 +1,57 @@
+2024-02-10 17:09:54 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 17824
+2024-02-10 17:09:54 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2024-02-10 17:09:54 0 [Note] InnoDB: Uses event mutexes
+2024-02-10 17:09:54 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2024-02-10 17:09:54 0 [Note] InnoDB: Number of pools: 1
+2024-02-10 17:09:54 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2024-02-10 17:09:54 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-02-10 17:09:54 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-02-10 17:09:54 0 [Note] InnoDB: Resizing redo log from 2*5242880 to 2*50331648 bytes; LSN=312180
+2024-02-10 17:09:54 0 [Note] InnoDB: Starting to delete and rewrite log files.
+2024-02-10 17:09:54 0 [Note] InnoDB: Setting log file .\ib_logfile101 size to 50331648 bytes
+2024-02-10 17:09:54 0 [Note] InnoDB: Setting log file .\ib_logfile1 size to 50331648 bytes
+2024-02-10 17:09:54 0 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+2024-02-10 17:09:54 0 [Note] InnoDB: New log files created, LSN=312180
+2024-02-10 17:09:54 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2024-02-10 17:09:54 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2024-02-10 17:09:54 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2024-02-10 17:09:54 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\gtid_slave_pos.ibd' OS error: 203
+2024-02-10 17:09:54 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-02-10 17:09:54 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-02-10 17:09:54 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mysql`.`gtid_slave_pos``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2024-02-10 17:09:54 0 [Warning] InnoDB: Ignoring tablespace for `mysql`.`gtid_slave_pos` because it could not be opened.
+2024-02-10 17:09:54 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2024-02-10 17:09:54 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2024-02-10 17:09:54 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2024-02-10 17:09:54 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\innodb_index_stats.ibd' OS error: 203
+2024-02-10 17:09:54 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-02-10 17:09:54 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-02-10 17:09:54 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mysql`.`innodb_index_stats``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2024-02-10 17:09:54 0 [Warning] InnoDB: Ignoring tablespace for `mysql`.`innodb_index_stats` because it could not be opened.
+2024-02-10 17:09:54 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2024-02-10 17:09:54 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2024-02-10 17:09:54 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2024-02-10 17:09:54 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\innodb_table_stats.ibd' OS error: 203
+2024-02-10 17:09:54 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-02-10 17:09:54 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-02-10 17:09:54 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mysql`.`innodb_table_stats``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2024-02-10 17:09:54 0 [Warning] InnoDB: Ignoring tablespace for `mysql`.`innodb_table_stats` because it could not be opened.
+2024-02-10 17:09:54 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2024-02-10 17:09:54 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2024-02-10 17:09:54 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2024-02-10 17:09:54 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\transaction_registry.ibd' OS error: 203
+2024-02-10 17:09:54 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2024-02-10 17:09:54 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2024-02-10 17:09:54 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mysql`.`transaction_registry``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2024-02-10 17:09:54 0 [Warning] InnoDB: Ignoring tablespace for `mysql`.`transaction_registry` because it could not be opened.
+2024-02-10 17:09:54 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2024-02-10 17:09:54 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-02-10 17:09:54 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-02-10 17:09:54 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2024-02-10 17:09:54 0 [Note] InnoDB: Waiting for purge to start
+2024-02-10 17:09:54 0 [Note] InnoDB: 10.4.32 started; log sequence number 312180; transaction id 265
+2024-02-10 17:09:54 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2024-02-10 17:09:54 0 [Note] Plugin 'FEEDBACK' is disabled.
+2024-02-10 17:09:54 0 [Note] InnoDB: Buffer pool(s) load completed at 240210 17:09:54
+ERROR: 1049  Unknown database 'mysql'
+2024-02-10 17:09:54 0 [ERROR] Aborting
