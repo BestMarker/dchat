@@ -1,0 +1,17 @@
+--Hedefler
+Profil sistemi.
+Düşük çözünürlükte daha iyi görüntü.
+
+---v0.1.3
+Tasarım:
+Kendi gönderdiğiniz mesajlar artık sağ tarafta duruyor.
+Yöneticiler kırmızı renkle görünüyor.
+
+Sistem:
+Şifre koruması eklendi kayıt olurken şifre de gerekli, ek olarak hash kullanılarak saklanıyor.
+İp bağlantısı geliştirildi artık daha güvenli.
+Hesaptan çıkış yapma eklendi.
+
+Ek:
+Id sistemi geliştirildi birkaç işlem kullanıcı adından id ye geçiş yaptı.
+Koda açıklamalar eklendi, daha rahat okunabilir.
